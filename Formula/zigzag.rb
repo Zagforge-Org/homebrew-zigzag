@@ -7,20 +7,20 @@ class Zigzag < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/LegationPro/zigzag/releases/download/v0.14.1/zigzag-aarch64-macos.tar.gz"
-      sha256 "7afc432fb15151eefd542cb44728147f6ea1b47ccf0e90a5ee1bac3d9a65fc1b"
+      sha256 "f3e44e666143c5ee24dc6ccc87d97d72edcddc1808b2c4d6159e39a6f3989053"
     else
       url "https://github.com/LegationPro/zigzag/releases/download/v0.14.1/zigzag-x86_64-macos.tar.gz"
-      sha256 "336cd7d3f7d0353d2b6f73ea5ca797cb35445d77dd9f183bb13d343cadd9ca5f"
+      sha256 "02148ebdc96e3c6cb9d8bdc5b3d869fe25badaa54f527271edea9f837e70c7a0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/LegationPro/zigzag/releases/download/v0.14.1/zigzag-aarch64-linux.tar.gz"
-      sha256 "ed48ac21fd5bb30db9d59f6ce46af841d73849b311b860f7b506c48a9956b2a6"
+      sha256 "7bbf1e8a4f69545331f31afd40866793e61cab6dc9c79256f1b70c72567ded86"
     else
       url "https://github.com/LegationPro/zigzag/releases/download/v0.14.1/zigzag-x86_64-linux.tar.gz"
-      sha256 "9ebf06f7b14e0a3210fc77b46f95ebc563c17367d4b8a538da6d45a65e46fc91"
+      sha256 "1ac2b9769a29c4ad674a05f783e382f986ef18080b79dc8ee5f1e3ee9ad78a2c"
     end
   end
 
