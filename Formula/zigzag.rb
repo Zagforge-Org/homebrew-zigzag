@@ -1,26 +1,26 @@
 class Zigzag < Formula
   desc "High-performance tool for generating markdown reports of source code directories"
   homepage "https://github.com/LegationPro/zigzag"
-  version "0.15.0"
+  version "0.15.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.0/zigzag-aarch64-macos.tar.gz"
-      sha256 "64fb0f4222b3a11a0480f74f36a8b06e5506e5825a1f85c8301480792be253c8"
+      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.1/zigzag-aarch64-macos.tar.gz"
+      sha256 "01c6c6e4470636d16d5ab9dbc36459d271c2a9e514479597ab02648e738d6327"
     else
-      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.0/zigzag-x86_64-macos.tar.gz"
-      sha256 "bfee9b84bc8de7c81d6f2dc9d214d31ec74e50f16250d5d303d8598c494129d9"
+      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.1/zigzag-x86_64-macos.tar.gz"
+      sha256 "b7a95740632e85373da8e5f2526d6a076bf6034f479c8d1ca6c1a8c039db91ed"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.0/zigzag-aarch64-linux.tar.gz"
-      sha256 "a3a837ec7e0c521182981cf1e837f2d5be55acfae97ab789f284757f78919b3a"
+      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.1/zigzag-aarch64-linux.tar.gz"
+      sha256 "8943ef7f969af3352ce4d98614eb319ee47970a15dfa2a59e7ce1034941d1c25"
     else
-      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.0/zigzag-x86_64-linux.tar.gz"
-      sha256 "e0cd6cdf568489da067ba4d1d4c210271a0e0e7d9193215fa999386bbc1c04f1"
+      url "https://github.com/LegationPro/zigzag/releases/download/v0.15.1/zigzag-x86_64-linux.tar.gz"
+      sha256 "bda602af8c875c3fda74c4c5974f3208d279e9f93d92264fd550b17af9843008"
     end
   end
 
